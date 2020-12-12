@@ -1,0 +1,28 @@
+
+  .toolbar {
+    /* position: absolut; */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 280pt; 
+  }
+
+  button {
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+button:hover {
+    background-color: limegreen;
+    color:black;
+    }

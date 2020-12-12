@@ -1,0 +1,71 @@
+<div class="row" style="margin-top: 5%; margin-bottom: 30%;">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a style="background-color: black; color: white;"
+        class="list-group-item list-group-item-action active" 
+        id="list-home-list" 
+        data-toggle="list" 
+        role="tab" 
+        (click)="toggleComponent(0)"
+        aria-controls="home"
+      >
+          Não me lembro das minhas informações de login?
+      </a>
+      <a style="background-color: black; color: white;"
+        class="list-group-item list-group-item-action" 
+        id="list-profile-list" 
+        data-toggle="list" 
+        role="tab" 
+        (click)="toggleComponent(1)"
+        aria-controls="profile"
+      >
+         Como posso adicionar uma música aos meus favoritos?
+      </a>
+      <a style="background-color: black; color: white;"
+        class="list-group-item list-group-item-action" 
+        id="list-messages-list" 
+        data-toggle="list" 
+        role="tab" 
+        (click)="toggleComponent(2)"
+        aria-controls="messages"
+      >
+         Não consigo escutar as músicas do Spotify.
+      </a>
+      <a style="background-color: black; color: white;"
+        class="list-group-item list-group-item-action" 
+        id="list-settings-list" 
+        data-toggle="list" 
+        role="tab" 
+        (click)="toggleComponent(3)"
+        aria-controls="settings"
+      >
+          Como eu limpo o cache do Spotify?
+      </a>
+    </div>
+  </div>
+  <div class="col-8" style="margin-top: 1,5%;background-color:black">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list" style="color: white;">
+        Se você não se lembrar da sua senha, use a página de redefinição de senha.
+        Se não se lembrar do seu e-mail/nome de usuário, acesse a página de redefinição de senha e insira os endereços de e-mail que você pode ter usado para criar uma conta.
+        Quando o endereço certo for inserido, aparecerá uma mensagem dizendo que o e-mail de redefinição de senha foi enviado. 
+        Observação: existem várias maneiras de criar uma conta; por exemplo, usando um e-mail, um número de telefone, o Facebook ou a Apple. Tente fazer login usando essas opções para localizar a sua conta.
+        Redefinir sua senha</div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list" style="color: white;">
+        É fácil! Basta tocar/clicar no coração que aparece ao lado do nome da música. 
+      </div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list" style="color: white;">
+        Se você tiver algum problema com o aplicativo, estes passos podem corrigi-lo:<br>
+        Reinicie o aplicativo do Spotify.<br>
+        Saia do Spotify e entre de novo.<br>
+        Confira se o aplicativo está atualizado.<br>
+        Acesse as configurações e certifique-se de que o modo offline não esteja ativado.<br>
+        Feche qualquer outro aplicativo que não estiver usando.<br>
+        Reinstale o aplicativo<br>
+      </div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list" style="color: white;">
+        Vá para 'Editar' em seguida 'Preferências' e verifique a localização da pasta, a seguir copie e cole em Meu Computador.
+      </div>
+    </div>
+  </div>
+</div>

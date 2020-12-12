@@ -1,0 +1,18 @@
+.card-img-top {
+    height: 250px;
+}
+
+.card{
+    width:250px;
+    height:250px;
+    border:solid 1px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px 5px rgb(30,215,96);
+}
+
+.container{
+    background-color: black;
+}
